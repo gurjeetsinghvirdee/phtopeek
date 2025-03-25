@@ -6,3 +6,4 @@ edition = "2024"
 [dependencies]
 eframe = "0.24"
 egui_extras = { version = "0.24", features = ["image"] }
+winapi = { version = "0.3", features = ["winuser", "windef"] }
