@@ -1,0 +1,12 @@
+# Ignore Rust build artifacts
+target/
+**/target/
+debug/
+release/
+
+# Ignore package manager lock file (for libraries, keep it for apps)
+Cargo.lock
+
+# Ignore Rust metadata
+*.rs.bk
+*.log
